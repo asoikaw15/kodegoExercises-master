@@ -1,0 +1,171 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar-nav {
+    margin-left: auto;
+
+}
+
+.nav-link {
+    font-weight: 800;
+}
+
+
+
+.col img {
+    padding-top: 55px;
+}
+
+.fade-in {
+    animation: fadeIn ease 1.5s;
+    -webkit-animation: fadeIn ease 1.5s;
+    -moz-animation: fadeIn ease 1.5s;
+    -o-animation: fadeIn ease 1.5s;
+    -ms-animation: fadeIn ease 1.5s;
+}
+h1,h3{
+    font-weight: 1000;
+}
+.navbar{
+    padding: 0px 5% 0px;
+}
+
+
+
+@media screen and (max-width: 547px) {
+    .col>img {
+        padding-top: 0px;
+        border-radius: 50%;
+        height: 200px;
+        border: black solid 5px;
+        width: 220px;
+        opacity: 0;
+        animation-name: fadeInUp;
+        -webkit-animation-name: fadeInUp;
+        margin-bottom: 10%;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .navbar {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 1em;
+        position: absolute;
+    }
+    
+
+
+    .animated {
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-fill-mode: both
+    }
+
+    .animatedFadeInUp {
+        opacity: 0
+    }
+
+    .fadeInUp {
+        opacity: 0;
+        animation-name: fadeInUp;
+        -webkit-animation-name: fadeInUp;
+    }
+
+    .section1 {
+        flex-direction: column;
+        padding: 0px 30px 30px 20px
+    }
+
+    .paragraph {
+        padding: 0px 20px 0px;
+        margin-top: 50%;
+    }
+    h3{
+        font-size: 1em;
+    }
+    h1{
+        font-size: 1.2em;
+        margin-right: 44px;
+    }
+ 
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
